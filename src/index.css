@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  width: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  height: 100vh;
+  width: 100vw;
+  background-color: #7AECA1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cntr_div{
+  background-color: white;
+  height: 70vh;
+  width: 25%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+h1{
+width:100%;
+padding: 10px;
+text-align: center;
+text-shadow:5px 5px 5px rgba(0,0,0,0.3);
+font-size:3rem;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 2px;
+font-weight: 500;
+min-width: 64px;
+}
+input{
+  width: 60%;
+  height: 30px;
+  margin: 10px;
+  margin-top: 20px;
+  border:none;
+  text-align: center;
+  border-bottom: 2px solid rgb(156, 82, 156) ;
+  outline: none;
+}
+.btn1{
+  background-color: #41614c !important;
+  border-radius: 50% !important;
+  height: 38px !important;
+  color: white !important;
+}
+.btn:hover{
+  background-color: white !important;
+  color: #41614c !important;
+
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style span {
+ width: 25px;
+ height: 25px;
+ background-color:rgb(156, 82, 156) !important;
+ border-radius: 50%;
+ box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+ color: white !important;
+}
+.deltbtn:hover{
+  background-color:white !important;
+  color:red !important;
+  border-radius: 50%;
+
+}
+
+ol{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+li{
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  color:rgb(156, 82, 156) ;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 25px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+
